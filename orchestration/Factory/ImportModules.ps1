@@ -1,5 +1,4 @@
 $rootPath = Split-Path -Path $MyInvocation.MyCommand.Definition -Parent
-
 $modulePath = Join-Path $rootPath -ChildPath '..' -AdditionalChildPath @('RepositoryService', 'Interface', 'IStateRepository.ps1');
 $scriptBlock = ". $modulePath";
 $script = [scriptblock]::Create($scriptBlock);
@@ -60,7 +59,7 @@ $modulePath = Join-Path $rootPath -ChildPath '..' -AdditionalChildPath @('DataSe
 $scriptBlock = ". $modulePath";
 $script = [scriptblock]::Create($scriptBlock);
 . $script;
-$modulePath = Join-Path $rootPath -ChildPath '..' --AdditionalChildPath @('IntegrationService', 'Interface', 'IDeploymentService.ps1');
+$modulePath = Join-Path $rootPath -ChildPath '..' -AdditionalChildPath @('IntegrationService', 'Interface', 'IDeploymentService.ps1');
 $scriptBlock = ". $modulePath";
 $script = [scriptblock]::Create($scriptBlock);
 . $script;
