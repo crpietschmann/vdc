@@ -58,4 +58,4 @@ Be sure to understand the different [environment types](../understand/environmen
   - [SAP HANA](archetypes/sap-hana/overview.adoc)
   - [Cloudbreak](archetypes/cloudbreak/overview.adoc)
 
-> NOTE: If you are interested in [contributing](/#contributing), please note that some of the docs are [authored in AsciiDoc](adoc-file-format.adoc) (.adoc) and others are Markdown (.md).
+> NOTE: If you are interested in [contributing](../README.md#contributing), please note that some of the docs are [authored in AsciiDoc](adoc-file-format.adoc) (.adoc) and others are Markdown (.md).
